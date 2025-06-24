@@ -24,5 +24,9 @@ public class TodoController {
     public Todo getTodoById(@PathVariable int id) {
         return todoService.getTodoById(id);
     }
+    @GetMapping("/welcome")
+    public String greet(){
+        return "welocme to jenkins";
+    }
 }
 
