@@ -26,7 +26,7 @@ public class TodoController {
     }
     @GetMapping("/welcome")
     public String greet(){
-        return "welocme to jenkins";
+        return "welocme to docker";
     }
 }
 
